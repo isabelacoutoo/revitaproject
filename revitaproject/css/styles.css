@@ -601,14 +601,28 @@
 	
 	#featured
 	{
-		position: relative;
-		background: url(images/featured-wrapper-bg.jpg) repeat;
+		/* position: relative; */
+		padding-top: none;
+		background: url(img/clean-white-paper-background.jpg) repeat;
 		text-align: center;
-		color: #FFF;
+		
+		
 	}
 	
 	#featured header
 	{
+	}
+
+	#featured .box
+	{
+		width: 30%;
+		/* padding: 5em 0em; */
+	    display: inline-block;
+	}
+
+	#featured .h2
+	{
+		margin-top: 10px;
 	}
 
 /*********************************************************************************/
